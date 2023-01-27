@@ -68,14 +68,18 @@
 .content .upper{
 	display: flex;
 	align-items: center;
+	justify-content: center;
 	flex-direction: column;
 	font-family: Montserrat;
+	height: 50vh;
 }
 .content .upper h1{
 	font-weight: bold;
 }
 .content .upper p{
 	font-weight: normal;
+	width: 75%;
+	text-align: center;
 }
 .break{
 	display: flex;
@@ -87,4 +91,21 @@
 	width: 50%;
 	height: 0px;
 	border: 0.4px solid #151515;
+	margin: 0 5px 0 5px;
+}
+
+
+.content .below{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	font-family: Poppins;
+	height: 50vh;
+	font-weight: bold;
+}
+
+.content .below .privacy{
+	position: absolute;
+	bottom: 30px;
 }
