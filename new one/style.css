@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.home{
+	display: flex;
+	flex-direction: row;
+	width: 100%;
+	height: 100vh;
+}
+.bg{
+	width: 70%;
+	background: url('bg.png') no-repeat;
+	background-size: contain;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	height: 100%;
+	color: #eee;
+}
+.bg h1{
+	font-size: 6.5em;
+	font-family: Poppins;
+	line-height: 100%;
+}
+.bg .heading{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+.bg .sub-text{
+	display: flex;
+	width: 100%;
+	padding: 20px;
+}
+.bg .sub-text .inner-text{
+	position: absolute;
+	bottom: 30px;
+}
+.bg .sub-text .sub-link{
+	position: absolute;
+	bottom: 30px;
+	right: 38%;
+	display: flex;
+}
+
+
+.content{
+	display: flex;
+	flex-direction: column;
+	width: 30%;
+	padding: 20px;
+}
+.content button{
+	padding: 10px;
+	width: 90%;
+	border:1px solid black;
+	border-radius:25px;
+	margin: 5px;
+}
+.content button:hover{
+	cursor: pointer;
+}
+.content .upper{
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	font-family: Montserrat;
+}
+.content .upper h1{
+	font-weight: bold;
+}
+.content .upper p{
+	font-weight: normal;
+}
+.break{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 100%;
+}
+.line-1{
+	width: 50%;
+	height: 0px;
+	border: 0.4px solid #151515;
+}
