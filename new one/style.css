@@ -76,6 +76,12 @@
 	font-family: Montserrat;
 	height: 50vh;
 }
+.content .upper h1, .content .upper p{
+	transform: translateY(-50px);
+}
+.content .upper p{
+	padding-top: 10px;
+}
 .content .upper button{
 	display: flex;
 	justify-content: center;
