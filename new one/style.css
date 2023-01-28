@@ -44,12 +44,21 @@
 .bg .sub-text .inner-text{
 	position: absolute;
 	bottom: 30px;
+	font-family:Poppins;
+	width: 20%;
+	color: #ccc;
+	font-weight: bold;
 }
 .bg .sub-text .sub-link{
 	position: absolute;
 	bottom: 30px;
 	right: 38%;
 	display: flex;
+	font-family: Montserrat;
+}
+.bg .sub-text .inner-text span{
+	color: #fff;
+	font-family: Montserrat;
 }
 
 
